@@ -48,6 +48,20 @@ hold off;
 ```
 
 
+Here is the Matlab code for finding the maximum number of stages for the heuristic estimate to stay valid (within the give tolerance).
+
+```n=1;
+P_i=0.02; % probability to generate a faulty part
+epsilon=0.01; % tolerance
+
+
+while abs(1-(1-P_i)^n-n*P_i)<=epsilon
+    n=n+1;
+end
+
+disp(['The max number of stages is: ', num2str(n-1)]);
+```
+
 ### Case 2: Only the first fail counts
 
 Now consider the case that whenever a stage fails, the product will be considered as a faulty product immediately. Denote <img src="https://latex.codecogs.com/gif.latex?=\bar{P_i}=1-P_i" />.  
