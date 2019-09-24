@@ -7,4 +7,4 @@ Consider a manufacturing process with *n* stages connected in series. Let *P<sub
 
 Probability for having a faulty part: 
     1-Prob (not having a single faulty part for all *n* stages) 
-=>  1-<img src="https://latex.codecogs.com/gif.latex?1-\Pi_{i=1}^{n}(1-P_i)" />
+=>  <img src="https://latex.codecogs.com/gif.latex?1-\Pi_{i=1}^{n}(1-P_i)" />
