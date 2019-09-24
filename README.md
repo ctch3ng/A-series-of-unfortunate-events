@@ -62,7 +62,7 @@ end
 disp(['The max number of stages is: ', num2str(n-1)]);
 ```
 
-### Case 2: Only the first fail counts
+### An alternative expression
 
 Now consider the case that whenever a stage fails, the product will be considered as a faulty product immediately. Denote <img src="https://latex.codecogs.com/gif.latex?=\bar{P_i}=1-P_i" />.  
 
