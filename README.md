@@ -9,7 +9,7 @@ Probability for having a faulty part:
 <img src="https://latex.codecogs.com/gif.latex?=~1-{\text{Prob~(~not~having~a~single~faulty~part~in~all~}}n{\text{~stages)}}" />  
 <img src="https://latex.codecogs.com/gif.latex?\Rightarrow~1-\Pi_{i=1}^{n}(1-P_i)" />  
 
-Here is the Matlab code for showing the probability for having a faulty part under different values of *n*.
+Here is the Matlab code for showing the probability of having a faulty part under different values of *n*.
 
 ```
 close all
@@ -66,7 +66,7 @@ disp(['The max number of stages is: ', num2str(n-1)]);
 
 Now consider the case that whenever a stage fails, the product will be considered as a faulty product immediately. Denote <img src="https://latex.codecogs.com/gif.latex?=\bar{P_i}=1-P_i" />.  
 
-Under such a condition, the probability for having a faulty part :  
+Under such a condition, the probability of having a faulty part :  
 <img src="https://latex.codecogs.com/gif.latex?=P_1+\bar{P_1}P_2+\bar{P_1}\bar{P_2}P_3+\cdots" />  
 Suppose all <img src="https://latex.codecogs.com/gif.latex?P_i" /> are the same, we have  
 <img src="https://latex.codecogs.com/gif.latex?=P_i+\bar{P_i}P_i+\bar{P_i}\bar{P_i}P_i+\cdots+\bar{P_i}^{n-1}P_i" />  
