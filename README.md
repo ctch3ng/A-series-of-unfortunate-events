@@ -64,7 +64,7 @@ disp(['The max number of stages is: ', num2str(n-1)]);
 
 ### An alternative expression
 
-Now consider the case that whenever a stage fails, the product will be considered as a faulty product immediately. Denote <img src="https://latex.codecogs.com/gif.latex?=\bar{P_i}=1-P_i" />.  
+Whenever a stage fails, the product will be considered as faulty immediately regardless of what's going to happen in the following stages. Denote <img src="https://latex.codecogs.com/gif.latex?=\bar{P_i}=1-P_i" />.  
 
 Under such a condition, the probability of having a faulty part :  
 <img src="https://latex.codecogs.com/gif.latex?=P_1+\bar{P_1}P_2+\bar{P_1}\bar{P_2}P_3+\cdots" />  
