@@ -48,9 +48,12 @@ hold off;
 ```
 
 
-### Case 1: Only the first fail counts
+### Case 2: Only the first fail counts
 
 Now consider the case that whenever a stage fails, the product will be considered as a faulty product immediately. Denote <img src="https://latex.codecogs.com/gif.latex?=\bar{P_i}=1-P_i" />.  
 
 Under such a condition, the probability for having a faulty part :  
 <img src="https://latex.codecogs.com/gif.latex?=P_1+\bar{P_1}P_2+\bar{P_1}\bar{P_2}P_3\cdots" />  
+Suppose all <img src="https://latex.codecogs.com/gif.latex?P_i" /> are the same, we have  
+<img src="https://latex.codecogs.com/gif.latex?=P_i+\bar{P_i}P_i+\bar{P_i}\bar{P_i}P_i\cdots\bar{P_i}^{n-1}P_i" />
+
