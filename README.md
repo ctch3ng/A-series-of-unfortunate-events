@@ -58,5 +58,5 @@ Suppose all <img src="https://latex.codecogs.com/gif.latex?P_i" /> are the same,
 <img src="https://latex.codecogs.com/gif.latex?=P_i+\bar{P_i}P_i+\bar{P_i}\bar{P_i}P_i+\cdots+\bar{P_i}^{n-1}P_i" />  
 <img src="https://latex.codecogs.com/gif.latex?=P_i(\bar{P_i}+\bar{P_i}^2+\cdots+\bar{P_i}^{n-1})" />  
 <img src="https://latex.codecogs.com/gif.latex?=P_i\bar{P_i}(1+\bar{P_i}^1+\cdots+\bar{P_i}^{n-2})" />  
-<img src="https://latex.codecogs.com/gif.latex?=P_i\bar{P_i}(\frac{1-\bar{P_i}^{n-1}}{1-\bar{P_i}})" />
+<img src="https://latex.codecogs.com/gif.latex?=P_i\bar{P_i}(\frac{1-\bar{P_i}^{n-1}}{1-\bar{P_i}})" />  
 <img src="https://latex.codecogs.com/gif.latex?=\bar{P_i}-\bar{P_i}^{n}" />
