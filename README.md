@@ -9,6 +9,8 @@ Probability for having a faulty part:
 <img src="https://latex.codecogs.com/gif.latex?=~1-{\text{Prob~(~not~having~a~single~faulty~part~in~all~}}n{\text{~stages)}}" />  
 <img src="https://latex.codecogs.com/gif.latex?\Rightarrow~1-\Pi_{i=1}^{n}(1-P_i)" />  
 
+Here is the Matlab code for showing the probability for having a faulty part under different values of *n*.
+
 ```
 close all
 clear all
