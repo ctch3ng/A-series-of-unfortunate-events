@@ -1,7 +1,7 @@
 # A-series-of-unfortunate-events
 This repository is dedicated to the study of the failure rate in a multi-stage manufacturing process
 
-### Case 1: Fail without Jamming
+### Case 1: Fail at least once
 
 Consider a manufacturing process with *n* stages connected in series. Let *P<sub>i</sub>* be the probability for the *i*-th stage to generate a faulty part. 
 
@@ -46,3 +46,11 @@ legend;
 hold off;
 
 ```
+
+
+### Case 1: Only the first fail counts
+
+Now consider the case that whenever a stage fails, the product will be considered as a faulty product immediately.
+
+Under such a condition, the probability for having a faulty part :  
+<img src="https://latex.codecogs.com/gif.latex?=P_1+\bar{P_1}P_2+\bar{P_1}\bar{P_2}P_3\cdots" />  
